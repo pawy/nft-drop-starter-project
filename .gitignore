@@ -1,0 +1,5 @@
+app/src/assets/
+.cache/
+solana/
+.env
+node_modules/

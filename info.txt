@@ -1,0 +1,30 @@
+
+Create local wallet:
+solana-keygen new --outfile D:\nft-drop-starter-project\solana\devnet.json
+solana config set --keypair D:\nft-drop-starter-project\solana\devnet.json
+solana balance
+solana airdrop 2
+
+
+
+ts-node D:\metaplex\js\packages\cli\src\candy-machine-v2-cli.ts upload -e devnet -k D:\nft-drop-starter-project\solana\devnet.json -cp D:\nft-drop-starter-project\app\src\config.json D:\nft-drop-starter-project\app\src\assets
+
+delete .cache folder or chose different filename with -c filename
+
+UPDATE .env file with the KEY from initialized config for a candy machine with publickey: XXXXXXX
+
+ts-node D:\metaplex\js\packages\cli\src\candy-machine-v2-cli.ts verify_upload -e devnet -k D:\nft-drop-starter-project\solana\devnet.json
+
+ts-node D:\metaplex\js\packages\cli\src\candy-machine-v2-cli.ts update_candy_machine -e devnet -k D:\nft-drop-starter-project\solana\devnet.json -cp D:\nft-drop-starter-project\app\src\config.json
+
+run from where .cache folder is
+
+SOLtools.xyz Wallet
+
+//Stop after value of mints has been reached
+"endSettings": {
+        "endSettingType": { "amount": true },
+        "value": 2
+    },
+	
+TEMP: Dr1tGrpp7xigDc32kGEPkf9yJa3ZHouKUz6dwh6Y6gCv
