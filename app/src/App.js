@@ -91,14 +91,14 @@ const App = () => {
 
     <div className="App">
       <div id="nav">
+            <a href="https://soltools.xyz/">SOLtools</a>
+            <a href="https://soltools.xyz/listing-sniper">Listing sniper</a>
+            <a href="https://soltools.xyz/rarity-sniper">Rarity Sniper</a>
 
-      <a href="https://soltools.xyz">SOLtools</a>
-      <a href="https://soltools.xyz/solsniper">SOLsniper</a>
-
-      <a href="https://twitter.com/SoltoolsX"><img class="twitter" src="https://soltools.xyz/twitter-logo.svg" alt="Twitter @SoltoolsX" /></a>
-      <a href="https://discord.gg/GC8naA6tBK"><img class="discord" src="https://soltools.xyz/discord-logo.svg" alt="Discord SOLtools.xyz" /></a><br />
-      <a class="button" href="https://mint.soltools.xyz">$ BUY</a>
-      </div>
+            <a href="https://twitter.com/SoltoolsX"><img class="twitter" src="https://soltools.xyz/twitter-logo.svg" alt="Twitter @SoltoolsX" /></a>
+            <a href="https://discord.gg/GC8naA6tBK"><img class="discord" src="https://soltools.xyz/discord-logo.svg" alt="Discord SOLtools.xyz" /></a><br />
+            <a class="button" href="https://mint.soltools.xyz">$ BUY</a>
+        </div>
       <div className="container">
         <div className="header-container">
           <p className="header">SOLtools.xyz</p>

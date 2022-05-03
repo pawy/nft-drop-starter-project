@@ -426,6 +426,7 @@ const CandyMachine = ({ walletAddress }) => {
             Buy your SOLtools.xyz access-pass NFT
         </button>
         <p>{`Price: ${candyMachine.state.price / 1000000000}`} SOL</p>
+        <p>Note: Make sure to have at least 0.22 SOL in your wallet.</p>
       </div>;
   };
 
